@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://abhiramnukala.netlify.app/sitemap.xml
