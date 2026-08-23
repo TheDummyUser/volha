@@ -47,7 +47,7 @@ export default function Contact() {
 
           <div className="mt-9.5 flex gap-6.5 justify-center font-mono text-[13px]">
             <a
-              href="https://github.com/[github]"
+              href="https://github.com/thedummyuser"
               target="_blank"
               rel="noopener"
               className="text-ink-dim hover:text-copper transition-colors"
@@ -55,7 +55,7 @@ export default function Contact() {
               GitHub
             </a>
             <a
-              href="https://linkedin.com/in/[linkedin]"
+              href="https://www.linkedin.com/in/nukala-abhiram-0a1828255/"
               target="_blank"
               rel="noopener"
               className="text-ink-dim hover:text-copper transition-colors"
