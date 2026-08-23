@@ -1,8 +1,9 @@
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useRef, useState, type RefObject } from "react";
 
-
-export default function useReveal(threshold = 0.15) {
-  const ref = useRef(null);
+export default function useReveal<T extends HTMLElement = HTMLDivElement>(
+  threshold = 0.15
+): [RefObject<T | null>, boolean] {
+  const ref = useRef<T | null>(null);
   const [inView, setInView] = useState(false);
 
   useEffect(() => {
@@ -25,3 +26,4 @@ export default function useReveal(threshold = 0.15) {
 
   return [ref, inView];
 }
+
